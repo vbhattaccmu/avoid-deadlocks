@@ -1,0 +1,12 @@
+title = "Collision Monitor Configuration"
+
+width = 1000.0
+height = 800.0
+queue_hub_pw = "guest"
+queue_hub_user = "guest"
+hostname = "rabbitmq"
+hub_listening_port = 5672
+num_agents = 2
+logs_dir = "/tmp/monitor/logs"
+listening_port= 9000
+db_path = "/tmp/monitor/db"

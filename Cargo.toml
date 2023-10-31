@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "monitor",
+]
+resolver = "2"

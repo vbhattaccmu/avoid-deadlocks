@@ -1,0 +1,12 @@
+title = "Robot Configuration"
+
+id = "robot1"
+db_path = "/tmp/robot/db"
+queue_hub_pw = "guest"
+queue_hub_user = "guest"
+hub_listening_port = 5672
+lower_soc_limit = 20.5
+timeout = 10
+hostname = "rabbitmq"
+logs_dir = "/tmp/robot/logs"
+init_state_path = "/home/iw_submission/robot/example_configuration_file/init_state.json"

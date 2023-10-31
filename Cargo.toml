@@ -1,5 +1,6 @@
 [workspace]
 members = [
     "monitor",
+    "robot",
 ]
 resolver = "2"

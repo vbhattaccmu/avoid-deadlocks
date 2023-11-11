@@ -1,6 +1,6 @@
-# Deadlock Avoidance Service (DAS)
+# Avoid Deadlocks
 
-DAS addresses the challenges of deadlock resolution and collision avoidance among agents or robots navigating in an environment. This is achieved by implementing a centralized monitoring hub that actively listens to and communicates with the agents, instructing them to either stop or resume their movements as needed.
+`Avoid Deadlocks` addresses the challenges of deadlock resolution and collision avoidance among agents or robots navigating in an environment. This is achieved by implementing a centralized monitoring hub that actively listens to and communicates with the agents, instructing them to either stop or resume their movements as needed.
 
 RabbitMQ has been used for communication between the hub and the agents, and a REST API has been designed to report the states of the agents from the hub.
 

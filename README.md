@@ -26,7 +26,7 @@ The goal of this project is to showcase how:
 
 ## Project Directory
 
-DAS consists of the following crates:
+The service consists of the following crates:
 
 - `monitor`: A centralized monitoring service (or the hub) that accumulates states from agents every 10 milliseconds and sends back states to the robot with an objective of collision avoidance/deadlock resolution over RabbitMQ. The monitor also supports REST APIs for reading the current state of all robots in the system.
 

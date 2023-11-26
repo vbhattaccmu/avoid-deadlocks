@@ -169,7 +169,7 @@ impl CollisionMonitor {
         false
     }
 
-    /// collision_check_helper checks collision between two robots based on their dimension and
+    /// `collision_check_helper` checks collision between two robots based on their dimension and
     /// respective position in the grid.
     fn collision_check_helper(&self, robot: &Robot, other_robot: &Robot) -> bool {
         let robot_x_min = robot.x - self.config.width / 2.0;
